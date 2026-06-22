@@ -9,10 +9,10 @@ other S3-compatible backend.
 ## Install
 
 ```bash
-go get github.com/lfssteel/go-minio-init/storage
+go get github.com/Jazper-dev/go-minio-init/storage
 ```
 
-> The module path in `go.mod` is `github.com/lfssteel/go-minio-init`. Rename it
+> The module path in `go.mod` is `github.com/Jazper-dev/go-minio-init`. Rename it
 > to your own repo path before pushing, then run `go mod tidy`.
 
 ## Quick start
@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lfssteel/go-minio-init/storage"
+	"github.com/Jazper-dev/go-minio-init/storage"
 )
 
 func main() {
